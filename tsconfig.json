@@ -1,0 +1,74 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "strict": false,
+    "moduleResolution": "node",
+    "alwaysStrict": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "useUnknownInCatchVariables": false,
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@api/*": [
+        "api/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ],
+    },
+    "jsx": "react",
+    // No unused code (4)
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    // No implicit code (2)
+    "noImplicitOverride": false,
+    "noImplicitReturns": false,
+    // Others (5)
+    "noUncheckedIndexedAccess": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noFallthroughCasesInSwitch": false,
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": false
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
